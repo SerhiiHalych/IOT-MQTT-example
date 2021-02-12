@@ -1,0 +1,51 @@
+{
+  "name": "iot-example",
+  "version": "1.0.1",
+  "private": true,
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "gcp-build": "tsc -p ."
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "mqtt": "^4.2.6",
+    "socket.io": "^3.1.0",
+    "ws": "^7.4.3",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/express-ws": "^3.0.0",
+    "@types/mqtt": "^2.5.0",
+    "@types/node": "^13.13.31",
+    "@types/node-fetch": "^2.5.7",
+    "@types/ws": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-source-map-support": "^1.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "node-fetch": "^2.6.1",
+    "prettier": "2.0.4",
+    "ts-loader": "^6.2.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^3.9.7",
+    "yargs": "^15.4.1"
+  }
+}

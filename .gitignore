@@ -1,0 +1,37 @@
+# Package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Logs
+npm-debug.log
+
+# IDE Stuff
+**/.idea
+
+# OS Stuff
+.DS_Store
+.tmp
+.dump
+.build
+
+# Webpack directories
+.webpack
+
+# Code coverage
+.nyc_output
+coverage
+
+# Environment
+.env*
+env.yml
+rds.env
+docker.env
+
+# Other
+test-files
+
+consolidation/fileImport/*.csv
+consolidation/fileImport/*.json
